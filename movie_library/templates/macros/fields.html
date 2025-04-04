@@ -1,0 +1,23 @@
+<!--Here, field is the parameter passed to this macro-->
+{% macro render_text_field(field) %}
+<div class="form__group">
+    <!--field.label renders the form label and field renders the field itself; here field represents every field in wtform-->
+    {{field.label(class_="form__label")}}
+    {{field(class_="form__field")}}
+
+    {% for error in field.errors %}
+        <span class="form__error"> {{error}} </span>
+    {% endfor %}
+</div>
+{% endmacro %}
+
+{% macro render_area_field(field) %}
+<div class="form__group">
+    {{field.label(class_="form__label")}}
+    {{field(rows=4, class_=form__field, style="resize:none")}}
+
+    {% for error in field.errors %}
+        <span class="form__error"> {{error}} </span>
+    {% endfor %}
+</div>
+{% endmacro %}
