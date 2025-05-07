@@ -62,11 +62,12 @@ The Movie Watchlist Web App is a Flask-based web application that allows users t
 
 - Add movie ratings and reviews
 
-- Social features (share your list with friends)
-
 ## 📸 Screenshots
-!(/../main/Movie watchlist/main1.png)
-!(/../main/Movie watchlist/main2.png)
+![User personalized movie watchlist](https://github.com/user-attachments/assets/2c063ce7-1d98-4b4a-a400-085008800dee)
+
+![/2](https://github.com/user-attachments/assets/2e851cd3-b40d-4a6f-9b44-ed678153cb29)
+
+
 
 
 ## 🧑‍💻 Author
