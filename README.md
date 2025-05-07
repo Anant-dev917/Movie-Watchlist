@@ -34,3 +34,40 @@ The Movie Watchlist Web App is a Flask-based web application that allows users t
   - `Flask-Login` for session management
   - `passlib` (`pbkdf2_sha256`) for password hashing
 
+## 🧪 How to Run Locally
+1. Clone the Repository
+   - ```
+     git clone https://github.com/your-username/movie-watchlist.git
+     cd movie-watchlist
+     ```
+2. Create a Virtual Environment
+   - ```
+     python -m venv venv
+     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+     ```
+3. Install Dependencies
+   - `pip install -r requirements.txt`
+4. Set Up Environment Variables
+   Create a `.env` file (or use environment variables) to include:
+   - SECRET_KEY
+   - MONGO_URI
+5. Run the app
+   `flask run`
+6. Visit `http://localhost:5000` in your browser.
+
+## 💡 Future Improvements
+- Edit/delete movie entries
+
+- Add image upload or movie posters
+
+- Add movie ratings and reviews
+
+- Social features (share your list with friends)
+
+## 📸 Screenshots
+
+
+## 🧑‍💻 Author
+- Anant Shaynam
+- [My Linkedin](https://www.linkedin.com/in/anant-shaynam-80b0b3250/) | [My portfolio](https://portfolio-8mjp.onrender.com/)
+
