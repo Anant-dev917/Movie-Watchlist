@@ -37,7 +37,7 @@ The Movie Watchlist Web App is a Flask-based web application that allows users t
 ## 🧪 How to Run Locally
 1. Clone the Repository
    - ```
-     git clone https://github.com/your-username/movie-watchlist.git
+     git clone https://github.com/Anant-dev917/Movie-Watchlist.git
      cd movie-watchlist
      ```
 2. Create a Virtual Environment
